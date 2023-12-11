@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>로그인</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    .login-form {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <form class="login-form" action="/login" method="post">
+    <input type="text" name="username" placeholder="아이디">
+    <input type="password" name="password" placeholder="비밀번호">
+    <button type="submit">로그인</button>
+  </form>
+</body>
+</html>
